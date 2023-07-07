@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Choice Mara</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/86ad6c4007.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <style>/*paste the copied link from google*/
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family:'Poppins', sans-serif;
+    }
+    .contact{
+        position:relative;
+        min-height: 100vh;
+        padding: 50px 100px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction: column;
+        background: url(Images/pic13.jpg);
+        background-size: cover;
+    }
+    .contact .content{
+        max-width: 800px;
+        text-align: center;
+    }
+
+    .contact .content h2{
+        font-size: 36px;
+        font-weight:500;
+        color:#fff;
+    }
+    .contact .content p{
+        font-weight: 300;
+        color:#fff;
+    }
+
+    .container{
+        width: 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .container .contactInfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .contactInfo .box{
+        position: relative;
+        padding: 20px 0;
+        display: flex;
+    }
+    .container .contactInfo .box .icon{
+        min-width: 60px;
+        height: 60px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 22px;
+    }
+    .container .contactInfo .box .text{
+        display:flex;
+        margin-left: 20px;
+        font-size: 16px;
+        color: #fff;
+        flex-direction: column;
+        font-weight: 300;
+    }
+    .container .contactInfo .box .text h3{
+        font-weight: 500;
+        color:#f50f0f;
+    }
+    .contactForm{
+        width:40%;
+        padding: 40px;
+        background: #fff;
+    }
+    .contactForm h2{
+        font-size: 30px;
+        color: #333;
+        font-weight: 500;
+    }
+    .contactForm .inputBox{
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .contactForm .inputBox input,   
+    .contactForm .inputBox textarea{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+    }
+    .contactForm .inputBox label{
+        position: absolute;
+        left:0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+    }
+    .contactForm .inputBox input:focus ~ label,
+    .contactForm .inputBox input:valid ~ label,
+    .contactForm .inputBox textarea:focus ~ label,
+    .contactForm .inputBox textarea:valid ~ label{
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+    .contactForm .inputBox input[type="submit"]{
+        width: 100px;
+        background: #f50f0f;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+    }
+    @media(max-width: 991px){
+        .contact{
+            padding: 50px;
+        }
+        .container{
+            flex-direction: column;
+        }
+        .container .contactInfo{
+            margin-bottom: 40px;
+        }
+        .container .contactInfo,
+        .contactForm{
+            width: 100%;
+        }
+    }
+
+    </style>
+</head>
+<body>
+
+    <!--Navbar -->
+        
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"><!--i class="fas fa-gem">--> 
+                <img style= "height:90px; width:90px; padding:10px;" 
+                src="Images/pic45.jpg" alt="pic" id="main__img ">
+                <h1>GREEN CHOICE MARA-CBO</h1></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/Index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/About Us.html" class="navbar__links">About Us</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/Gallery.html" class="navbar__links">Gallery  </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/Our Team.html" class="navbar__links">Our Team</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/Contact Us.html" class="button">Contact Us </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Got an idea? Do you want to know us better? Do you wish to join us 
+                in our tree planting endavours? Or do you simply want to encourage us and 
+                appreciate our works? Kindly reach out to us through any of our social 
+                media handles or simply send us a message! We are excited to get to know 
+                you and hear from you.
+
+            </p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                     <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Adddress</h3>
+                            <p>Talik Town, <br>Narok County, <br>Kenya</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-phone-square" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+254 111 111 111</p>
+                        </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>greenchoicemaracbo@gmail.com</p>
+                        </div>    
+                </div>
+            </div>
+            <div class="contactForm">
+                <form action="connect.php" method="post">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="firstName" required="required">
+                        <label for="firstName">First Name</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="lastName" required="required">
+                        <label for="lastName">Last Name</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="email" required="required">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" name="phoneNumber" required="required">
+                        <label for="phoneNumber">Phone Number</label>
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="message" required="required"></textarea>
+                        <label for="message">Type your Message...</label>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="Submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Footer Section-->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <H2>About Us</H2>
+                <a href="/">What we aim to achieve</a>
+                <a href="/">Our esteemed members</a>
+                <a href="/">Testimonials</a>
+                <a href="/">How it works</a>
+                <a href="/">Terms of Service</a>
+            </div>
+            <div class="footer__link--items">
+                <H2>More</H2>
+                <a href="/">Why we do this</a>
+                <a href="/">What we aim to achieve</a>
+                <a href="/">Our esteemed members</a>
+                <a href="/">Testimonials</a>
+                <a href="/">How it works</a>
+                <a href="/">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <H2>Contact Us</H2>
+                <a href="/07 59 328 839">Contact</a>
+                <a href="/Narok">Location</a>
+                <a href="/jdaisyteroi@gmail.com">Email</a>
+                <a href="/">SMS</a>
+            </div>
+            <div class="footer__link--items">
+                <H2>Social Media</H2>
+                <a href="/">Instagram</a>
+                <a href="https://m.facebook.com/profile.php?id=100093716030079">Facebook</a>
+                <a href="/">Twitter</a>
+                <a href="/">Linkedin</a>
+            </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo"><!--<i class="fas fa-gem">-->
+                    <img style= "height:150px; width:150px; padding:10px;" 
+                    src="Images/pic45.jpg" alt="pic" id="main__img ">
+                </i>GREEN CHOICE MARA</a>
+            </div>
+            <p class="website__rights"> © Green Choice Mara 2023. <!--© ® ®-->All rights reserved.</p>
+            <div class="social__icons">
+                <a href="https://m.facebook.com/profile.php?id=100093716030079" class="social__icon--link" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <br/>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <br/>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <br/>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+<!--
+    
+<?php
+require 'connection.php'; 
+
+if(isset($_POST["send"])){
+  $firstName = $_POST["firstName"];
+  $lastName = $_POST["lastName"];
+  $email = $_POST["email"];
+  $phoneNumber = $_POST["phonenumber"];
+  $message = $_POST["message"];
+
+  $query = "INSERT INTO send_message VALUES ('', '$firstName', '$lastName',
+  '$email', '$phoneNumber', '$message')";
+  mysqli_query($conn, $query);
+  echo
+  "
+  <script> alert('Data Inserted Successfully'); </script>
+  ";
+}
+?>
+
+<?php
+$firstName = $_POST['firstName'];
+$lastName = $_POST['lastName'];
+$email = $_POST['email'];
+$phoneNumber = $_POST['phoneNumber'];
+$message = $_POST['message'];
+
+
+//Database Connection
+$conn = new mysqli('localhost', 'root', '', 'db_message');
+if($conn->connect_error) {
+// "Failed to connect to MySQL: " . $mysqli -> connect_error;
+//exit();
+die('Connection Failed:'.$conn->connect_error);
+}
+else{
+$stmt = $conn->prepare("insert into registration( firstName,
+lastName, email, phoneNumber, message)
+values(?, ?, ?, ?, ? )");
+$stmt->bind_param("sssis", $firstName, $lastName, $email, $phoneNumber, $message);
+$stmt->execute();
+echo "Message Sent Successfully...";
+$stmt->close();
+$conn->close();
+}
+?>
+-->

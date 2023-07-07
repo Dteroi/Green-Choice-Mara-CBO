@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Choice Mara</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://kit.fontawesome.com/86ad6c4007.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+ <style>
+   *{margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Exo 2', sans-serif;
+    }
+    body{
+        background:hsl(0, 0%, 6%);
+    }
+    .wrapper{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .wrapper h1{
+        font-family: 'Yatra One', cursive;
+        font-size:48px;
+        color:#fff;
+        margin-bottom: 25px;
+    }
+    .wrapper .our_team{
+        display: flex;
+        width: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .wrapper .our_team .team_member{
+        width: 400px;
+        margin: 5px;
+        background:#f10625;
+        padding: 20px 10px;
+        border-radius: 15%;
+
+    }
+    .wrapper .our_team .team_member .member_img{
+        background: #e9e5fa;
+        max-width: 200px;
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        border-radius: 50%;
+        padding: 5px;
+        cursor: pointer;
+        position:relative;
+    }
+    .wrapper .our_team .team_member .member_img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .wrapper .our_team .team_member h3{
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 2px;
+        margin: 15px 0 0;
+    }
+    .wrapper .our_team .team_member span{
+        font-size: 10px;
+    }
+    .wrapper .our_team .team_member p{
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .wrapper .our_team .team_member .social_media{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width:95%;
+        height: 95%;
+        background: rgb(0,0,0,0.65);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: scale(0);
+        transition: all 0.5s, ease;
+
+    }
+    .wrapper .our_team .team_member .social_media .item{
+        margin: 0 10px;
+    }
+    .wrapper .our_team .team_member .social_media .item .fab{
+        color: #8c7ae6;
+    }
+    .wrapper .our_team .team_member .member_img:hover .social_media{
+        transform: scale(1);
+    } 
+    
+    @media screen and (max-width: 960px) {
+    .services{
+        height: 2200px;/* was 1600px*/
+    }
+
+    .services h1{
+        font-size: 2rem;
+        margin-top: 5rem;/*was 12 rem*/
+    }
+}
+@media screen and (max-width: 480px){
+    .services{
+        height:1400px;
+    }
+
+    .services h1{
+        font-size: 1.2rem;
+    }
+
+    .services__card{
+        width: 360px;
+    }
+}
+   </style>
+</head>
+<body>
+    <!--Navbar section-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                <img style= "height:90px; width:90px; padding:10px;" 
+                src="Images/pic45.jpg" alt="pic" id="main__img ">
+                <h1>GREEN CHOICE MARA-CBO</h1></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/Index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/About Us.html" class="navbar__links">About Us</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/Gallery.html" class="navbar__links">Gallery  </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/Our Team.html" class="navbar__links">Our Team</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/Contact Us.html" class="button">Contact Us </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+<div class="wrapper">
+    <h1>Get to Know our Distinguished Team</h1>
+    <div class="our_team">
+        <div class="team_member">
+            <div class="member_img">
+                <img src="Images/pic33.jpg" alt="our_team">
+                <div class="social_media">
+                    <div class="item"><i class="fab fa-twitter"></i></div>
+                    <div class="item"><i class="fab fa-instagram"></i></div>
+                    <div class="item"><i class="fab fa-linkedin"></i></div>
+                </div>
+            </div>
+            <h3>JOY NAISIMOI</h3>
+            <span>FOUNDER</span>
+            <P>"You cannot protect the environment unless you empower people, <br>you 
+                inform them, and you help them understand that these resources
+                 are their own, <br>that they must protect them."
+            </P>
+        </div>
+        <div class="team_member">
+            <div class="member_img">
+                <img src="Images/pic29.jpg" alt="our_team">
+                <div class="social_media">
+                    <div class="item"><i class="fab fa-twitter"></i></div>
+                    <div class="item"><i class="fab fa-instagram"></i></div>
+                    <div class="item"><i class="fab fa-linkedin"></i></div>
+                </div>
+            </div>
+            <h3>Betty Teroi</h3>
+            <span>CO-FOUNDER</span>
+            <P>"In the end, we will conserve only what we love;
+                we will love <br>only what we understand,
+                 and we will understand only what we are tought."<br>
+                 -Baba Dioum.
+            </P>
+        </div> <div class="team_member">
+            <div class="member_img">
+                <img src="Images/pic30.jpg" alt="our_team">
+                <div class="social_media">
+                    <div class="item"><i class="fab fa-twitter"></i></div>
+                    <div class="item"><i class="fab fa-instagram"></i></div>
+                    <div class="item"><i class="fab fa-linkedin"></i></div>
+                </div>
+            </div>
+            <h3>SAKAITERE NAURORI</h3>
+            <span>CEO</span>
+            <P>"It is the people who must save the environmrnt.<br>
+                It is the people who must make their leaders change.<br>
+                And we cannot be intimidated.<br>
+                So we must spend up for what we believe in."
+            </P>
+        </div> 
+    </div>
+</div>
+
+
+    <!--Services Section-->
+    <div class="services">
+      <h1>See what the hype is about</h1>
+     <div class="services__container">
+        <div class="services__card">
+            <h2>Environmental Conservation</h2>
+            <p>Raise awareness with us</p>
+            <button>Get Started</button>
+        </div>
+        <div class="services__card">
+            <h2>Women Empowerment</h2>
+            <p>Empower our girls and women</p>
+            <button>Get Started</button>
+        </div>
+        <div class="services__card">
+            <h2>Sustainable Developement </h2>
+            <p>Grow with us</p>
+            <button>Get Started</button>
+        </div>
+      </div>
+    </div>
+<!--Footer Section-->
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <H2>About Us</H2>
+                <a href="/">What we aim to achieve</a>
+                <a href="/">Our esteemed members</a>
+                <a href="/">Testimonials</a>
+                <a href="/">How it works</a>
+                <a href="/">Terms of Service</a>
+            </div>
+            <div class="footer__link--items">
+                <H2>About Us</H2>
+                <a href="/">Why we do this</a>
+                <a href="/">What we aim to achieve</a>
+                <a href="/">Our esteemed members</a>
+                <a href="/">Testimonials</a>
+                <a href="/">How it works</a>
+                <a href="/">Terms of Service</a>
+            </div>
+        </div>
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <H2>Contact Us</H2>
+                <a href="/">Contact</a>
+                <a href="/">Support</a>
+                <a href="/">Email</a>
+                <a href="/">SMS</a>
+            </div>
+            <div class="footer__link--items">
+                <H2>Social Media</H2>
+                <a href="/">Instagram</a>
+                <a href="https://m.facebook.com/profile.php?id=100093716030079">Facebook</a>
+                <a href="/">Twitter</a>
+                <a href="/">Linkedin</a>
+            </div>
+        </div>
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo"><!--<i class="fas fa-gem">--</i>-->
+                    <img style= "height:150px; width:150px; padding:10px;" 
+                    src="Images/pic45.jpg" alt="pic" id="main__img ">GREEN CHOICE MARA</a>
+            </div>
+            <p class="website__rights"> © GREEN CHOICE MARA 2023. All rights reserved</p>
+            <div class="social__icons">
+                <a href="https://m.facebook.com/profile.php?id=100093716030079" class="social__icon--link" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

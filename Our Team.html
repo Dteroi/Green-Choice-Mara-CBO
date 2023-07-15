@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
- <style>
+<style>
    *{margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -20,109 +20,8 @@
     body{
         background:hsl(0, 0%, 6%);
     }
-    .wrapper{
-        margin-top: 60px;
-        text-align: center;
-    }
-    .wrapper h1{
-        font-family: 'Yatra One', cursive;
-        font-size:48px;
-        color:#fff;
-        margin-bottom: 25px;
-    }
-    .wrapper .our_team{
-        display: flex;
-        width: auto;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .wrapper .our_team .team_member{
-        width: 400px;
-        margin: 5px;
-        background:#f10625;
-        padding: 20px 10px;
-        border-radius: 15%;
 
-    }
-    .wrapper .our_team .team_member .member_img{
-        background: #e9e5fa;
-        max-width: 200px;
-        width: 100%;
-        height: 200px;
-        margin: 0 auto;
-        border-radius: 50%;
-        padding: 5px;
-        cursor: pointer;
-        position:relative;
-    }
-    .wrapper .our_team .team_member .member_img img{
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-    }
-    .wrapper .our_team .team_member h3{
-        text-transform: uppercase;
-        font-size: 18px;
-        line-height: 18px;
-        letter-spacing: 2px;
-        margin: 15px 0 0;
-    }
-    .wrapper .our_team .team_member span{
-        font-size: 10px;
-    }
-    .wrapper .our_team .team_member p{
-        margin-top: 20px;
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .wrapper .our_team .team_member .social_media{
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        width:95%;
-        height: 95%;
-        background: rgb(0,0,0,0.65);
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transform: scale(0);
-        transition: all 0.5s, ease;
 
-    }
-    .wrapper .our_team .team_member .social_media .item{
-        margin: 0 10px;
-    }
-    .wrapper .our_team .team_member .social_media .item .fab{
-        color: #8c7ae6;
-    }
-    .wrapper .our_team .team_member .member_img:hover .social_media{
-        transform: scale(1);
-    } 
-    
-    @media screen and (max-width: 960px) {
-    .services{
-        height: 2200px;/* was 1600px*/
-    }
-
-    .services h1{
-        font-size: 2rem;
-        margin-top: 5rem;/*was 12 rem*/
-    }
-}
-@media screen and (max-width: 480px){
-    .services{
-        height:1400px;
-    }
-
-    .services h1{
-        font-size: 1.2rem;
-    }
-
-    .services__card{
-        width: 360px;
-    }
-}
    </style>
 </head>
 <body>
@@ -140,25 +39,25 @@
             </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="https://dteroi.github.io/Green-Choice-Mara-CBO/Index.html" class="navbar__links">Home</a>
+                    <a href="/Index.html" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="https://dteroi.github.io/Green-Choice-Mara-CBO/About Us.html" class="navbar__links">About Us</a>
+                    <a href="/About Us.html" class="navbar__links">About Us</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="https://dteroi.github.io/Green-Choice-Mara-CBO/Gallery.html" class="navbar__links">Gallery  </a>
+                    <a href="/Gallery.html" class="navbar__links">Gallery  </a>
                 </li>
                 <li class="navbar__item">
-                    <a href="https://dteroi.github.io/Green-Choice-Mara-CBO/Our Team.html" class="navbar__links">Our Team</a>
+                    <a href="/Our Team.html" class="navbar__links">Our Team</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="https://dteroi.github.io/Green-Choice-Mara-CBO/Contact Us.html" class="button">Contact Us </a>
+                    <a href="/Contact Us.html" class="button">Contact Us </a>
                 </li>
             </ul>
         </div>
     </nav>
     
-<div class="wrapper">
+<div class="wrapper" id="wrapper_team">
     <h1>Get to Know our Distinguished Team</h1>
     <div class="our_team">
         <div class="team_member">
@@ -215,23 +114,23 @@
 
 
     <!--Services Section-->
-    <div class="services">
+    <div class="services" id="services_team">
       <h1>See what the hype is about</h1>
-     <div class="services__container">
-        <div class="services__card">
+     <div class="services__container" id="services__container_team">
+        <div class="services__card" id="services__card_team">
             <h2>Environmental Conservation</h2>
             <p>Raise awareness with us</p>
-            <button>Get Started</button>
+            <button>Contact Us</button>
         </div>
-        <div class="services__card">
+        <div class="services__card" id="services__card_team">
             <h2>Women Empowerment</h2>
             <p>Empower our girls and women</p>
-            <button>Get Started</button>
+            <button>Contact Us</button>
         </div>
-        <div class="services__card">
+        <div class="services__card" id="services__card_team">
             <h2>Sustainable Developement </h2>
             <p>Grow with us</p>
-            <button>Get Started</button>
+            <button>Contact Us</button>
         </div>
       </div>
     </div>
